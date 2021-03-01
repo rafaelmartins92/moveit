@@ -65,7 +65,7 @@
 }
 
 .countdownButton:focus {
-  outline: 0;
+  outline-color: var(--title);
 }
 
 .countdownButtonActive {
@@ -82,4 +82,5 @@
   background: var(--white);
   color: var(--text);
   cursor: not-allowed;
+  border-bottom: 4px solid var(--green);
 }
