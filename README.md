@@ -1,34 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    <img alt="Logo" src="public/logo.png" />
+    <br>
+</h1>
 
-## Getting Started
+<p align="center">
+  <a href="https://www.linkedin.com/in/rafael-martins92/">
+  <img alt="Made By" src="https://img.shields.io/static/v1?label=Made%20By&message=Rafael%20Martins&color=orange&style=for-the-badge">
+	</a>
+  
+  <img alt="Languages" src="https://img.shields.io/github/languages/count/rafaelmartins92/moveit?style=for-the-badge">
+  
+  <img alt="Top Language" src="https://img.shields.io/github/languages/top/rafaelmartins92/moveit?style=for-the-badge">
+  
+  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/rafaelmartins92/moveit?style=for-the-badge">
+  
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/rafaelmartins92/moveit?style=for-the-badge">
+</p>
 
-First, run the development server:
+<h4 align="center">
+  <p>Let's move this body!</p>
+  
+  <p>
+  Nowadays we spend a lot of hours in front of the computer. This can be very harmful to our body. We need to make some breaks to put our body in movement.</p>
+  <p>
+  Move.it was created to help us with that. Based on the Pomodoro technique, Move.it remmember us to make some exercises.
+  </p>
+
+  <p>This application was based on Next Level Week #04 from Rocketseat.</p>
+</h4>
+
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
+
+<p align="center">
+  <img alt="Scene" src="public/portfolio-scene---moveit@2x.png">
+</p>
+
+## :rocket: Technologies
+
+This project was developed with the following technologies:
+
+- [Next JS](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [CSS](https://www.w3schools.com/css/)
+- [JS Cookie](https://www.npmjs.com/package/js-cookie)
+- [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
+
+## :eyes: Check it Out
+
+You can try it here:
+
+- [Move.it](https://moveit-rafaelmartins.vercel.app/)
+
+## :information_source: How to use
+
+To clone and run this application, you'll need [Git][git] installed on your computer. From your command line:
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone this repository
+$ git clone https://github.com/rafaelmartins92/moveit.git
+
+# Go into the repository
+$ cd moveit
+
+# Install dependencies
+$ yarn install
+
+# Run application
+$ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :memo: License
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+This project is under the MIT license. See the [LICENSE][license] for more information.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<h4 align="center">
+    Made with ♥ by Rafael Martins 👋 <a href="https://www.linkedin.com/in/rafael-martins92/" target="_blank">Get in touch!</a>
+</h4>
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[vc]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[git]: https://git-scm.com
+[license]: https://github.com/rafaelmartins92/moveit/blob/master/LICENSE
